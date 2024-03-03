@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+button{
+    background-color: rgb(237, 30, 30);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(91, 91, 193);
+    cursor: pointer;
+}
+.backbtn{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(136, 159, 167);
+    z-index: -2;
+}
+.main{
+    background-color: rgb(52, 62, 65);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10% 20%;
+    border-bottom: 1px solid  rgb(64, 31, 211);
+    padding: 20px;
+}
+.header{
+    text-transform: uppercase;
+    border-bottom: 1px solid  rgb(64, 31, 211);
+}
+.logo{
+    top: 0;
+    left: 0;
+    color: rgb(97, 61, 181);
+}
+.list{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+
+}
+.nav-links{
+    margin-left: 2rem;
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+a:hover{
+    color: rgb(29, 29, 120);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* About */
+.about{
+    text-align: center;
+}
+
+/* Contact page */
+.h1{
+    text-align: center;
+}
+form{
+    text-align: center;}
+
+footer{
+    text-align: center;
+}
